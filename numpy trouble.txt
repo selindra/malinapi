@@ -1,0 +1,5 @@
+
+
+#Если проблемы с нумпаем  libf77blas.so.3 cannot open .... Ввести в терминале
+ 
+Sudo apt-get install libatlas-base-dev

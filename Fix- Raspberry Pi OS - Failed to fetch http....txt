@@ -1,0 +1,29 @@
+
+
+This tutorial will show you step by step what to do when you try to update Raspberry Pi OS and get the following error: Failed to fetch http://archive.raspberrypi.org/debian/....
+
+Steps
+
+1. Open the terminal.
+
+2. Type the following command:
+
+sudo nano /etc/apt/sources.list.d/raspi.list
+3. Press [Enter].
+
+4. Change the URL to https. Change http://archive.raspberrypi.org/debian/ to https://archive.raspberrypi.org/debian/.
+
+5. Press the [CTRL] + [O] key to write out.
+
+6. Press [Enter].
+
+7. Press the [CTRL] + [X] key to exit.
+
+8. Restart your Raspberry Pi.
+
+9. Open the terminal.
+
+10. Try to update now.
+
+sudo apt update
+sudo apt full-upgrade

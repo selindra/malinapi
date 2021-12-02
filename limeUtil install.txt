@@ -1,0 +1,18 @@
+sudo su
+wget http://download.opensuse.org/repositories/network:/osmocom:/latest/Raspbian_10/Release.key 
+apt-key add Release.key
+rm Release.key
+echo "deb http://download.opensuse.org/repositories/network:/osmocom:/latest/Raspbian_10/ ./" > /etc/apt/sources.list.d/osmocom-latest.list
+apt-get update
+exit
+
+
+
+sudo apt install limesuite liblimesuite-dev
+
+
+LimeUtil --info
+
+
+
+#Cc: https://wiki.myriadrf.org/Getting_Started_with_the_LimeNET-Micro
