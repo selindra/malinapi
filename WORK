@@ -1,0 +1,15 @@
+ sudo apt-get install python3
+ sudo pip3 install numpy  
+ sudo apt-get install soapysdr-tools soapysdr-module-lms7 python3-scipy python3-soapysdr libsoapysdr-dev
+ sudo apt-get install python-dev swig
+ sudo apt update
+ sudo apt upgrade
+
+#limeUtil Install
+ sudo apt install limesuite liblimesuite-dev
+ sudo apt install limesuite-udev limesuite-images
+ sudo apt update
+#libusb_troubles
+
+
+
