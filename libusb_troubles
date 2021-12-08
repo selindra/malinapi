@@ -1,0 +1,37 @@
+# installation of SDR Lime
+
+## Installation
+
+alskdjasd
+
+## Link section
+
+how to:
+
+
+
+
+
+## Trouble shooting section
+
+
+
+
+For this problem:
+libusb: error [get_usbfs_fd] libusb couldn't open USB device /dev/bus/usb/001/007, errno=13
+libusb: error [get_usbfs_fd] libusb requires write access to USB device nodes
+
+
+Check this with exaxt number of your port
+
+ls -l /dev/bus/usb/00*
+
+If it will be crw-rw-r--  change by this command:
+
+sudo chmod o+w /dev/bus/usb/003/008
+
+After checking with  ls -l /dev/bus/usb/00*   you will see: 
+crw-rw-rw-
+
+Check and  change every time
+CC: https://stackoverflow.com/questions/22713834/libusb-cannot-open-usb-device-permission-isse-netbeans-ubuntu
