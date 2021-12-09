@@ -1,6 +1,0 @@
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install tasksel
-sudo apt-get install lightdm
-sudo tasksel install ubuntu-mate-core
-sudo service lightdm start
-

@@ -4,12 +4,17 @@
  sudo apt-get install python-dev swig
  sudo apt update
  sudo apt upgrade
-
-#limeUtil Install
  sudo apt install limesuite liblimesuite-dev
  sudo apt install limesuite-udev limesuite-images
  sudo apt update
 #libusb_troubles
+
+ ##For gnu radio
+ sudo apt install gnuradio gnuradio-doc gnuradio-dev
+ sudo apt-get install gr-limesdr
+ sudo apt update
+ sudo apt upgrade
+
 
 
 
