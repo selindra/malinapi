@@ -1,0 +1,55 @@
+######################################################
+## LimeSuite information summary
+######################################################
+
+Version information:
+  Library version:	v18.06.0+dfsg-1+b1
+  Build timestamp:	2018-07-28
+  Interface version:	v2018.6.0
+  Binary interface:	18.06-1
+
+System resources:
+  Installation root:	/usr
+  User home directory:	/home/pi
+  App data directory:	/home/pi/.local/share/LimeSuite
+  Config directory:	/home/pi/.limesuite
+  Image search paths:
+     - /home/pi/.local/share/LimeSuite/images
+     - /usr/share/LimeSuite/images
+
+Supported connections:
+   * FT601
+   * FX3
+   * PCIEXillybus
+
+
+
+Linux raspberrypi 5.10.63-v7+ #1496 SMP Wed Dec 1 15:58:11 GMT 2021 armv7l GNU/Linux
+
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+
+
+
+Architecture:        armv7l
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  1
+Core(s) per socket:  4
+Socket(s):           1
+Vendor ID:           ARM
+Model:               4
+Model name:          Cortex-A53
+Stepping:            r0p4
+CPU max MHz:         1200.0000
+CPU min MHz:         600.0000
+BogoMIPS:            38.40
+Flags:               half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+
+
+
+  Expected gateware version 2, revision 17
+  But found version 2, revision 23
