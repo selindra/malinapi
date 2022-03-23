@@ -7,7 +7,7 @@
     sudo apt upgrade
 
 
-    sudo apt-get install python3 python3-numpy
+    sudo apt-get install python3 python3-numpy git
 
 
 ## Soapy
