@@ -1,5 +1,5 @@
 
 
-#Если проблемы с нумпаем  libf77blas.so.3 cannot open .... Ввести в терминале
+#If numpy problems: libf77blas.so.3 cannot open ....
  
 Sudo apt-get install libatlas-base-dev
