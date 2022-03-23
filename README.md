@@ -1,4 +1,4 @@
-# LimeSDR on Raspberry Pi How to
+# How to connect LimeSDR with Raspberry Pi
 
 
 ## Prerequisites
